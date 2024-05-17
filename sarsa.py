@@ -47,7 +47,7 @@ class SARSAAgent:
             terminated: Whether the episode has terminated after taking that action
             next_obs: The observation received from the environment after taking that action
         """
-        ### WRITE YOUR CODE HERE
+        
         next_action = self.get_action(next_obs)
         future_q = (not terminated) * self.q_values[next_obs][next_action]
         td = reward + (self.discount_factor * future_q) - self.q_values[obs][action]
