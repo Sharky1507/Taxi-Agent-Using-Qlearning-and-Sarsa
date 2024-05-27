@@ -1,5 +1,5 @@
 # Taxi-Agent-Using-Qlearning-and-Sarsa
--Reinforcement learning algorithms fall under two broad categories:
+- ##  Reinforcement learning algorithms fall under two broad categories:
 
 - On-policy methods: The agent learns the value of the policy being followed while following that policy, i.e., the policy being learned and the policy used to determine the agent’s behavior are the same. State-action-reward-state-action (SARSA) is a classic example of an on-policy method.
 
