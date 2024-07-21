@@ -5,4 +5,4 @@
 
 - Off-policy methods: The agent learns the value of the optimal policy while following another, possibly suboptimal, policy. In this case, the policy that determines the agent’s behavior (the exploratory policy) can be different from the target policy that is being learned. Q-learning is a classic example of an off-policy method.
 
-- This Project Utilizes the gymnasium API from OpenAI which is commonly used to initialize Reinforcement learning environments .
+- This Project Utilizes the gymnasium API from OpenAI which is commonly used to initialize Reinforcement learning environments.
